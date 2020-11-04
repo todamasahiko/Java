@@ -15,8 +15,18 @@ public class Main { //クラスブロック
 
         final double PI = 3.14; //定数の宣言
         int pie = 7;
-        PI = 10;
+        //PI = 10; //コンパイルエラーの確認
         System.out.println("半径" + pie + "cmの円の面積は");
         System.out.println(pie * pie * PI);
+
+        int aa = 3; int b = 5; //変数の宣言
+        int c = aa * b; //変数の計算式
+        System.out.println("縦幅" + aa + "横幅" + b + "の長方形の面積は" + c); //命令実行
+
+        boolean invalid = true;
+        char likekanji = '駆';
+        double pi = 3.14;
+        long number = 312159265853979L;
+        String phrase = "ミナトの攻撃！敵に15ポイントのダメージを与えた。";
     }
 }
